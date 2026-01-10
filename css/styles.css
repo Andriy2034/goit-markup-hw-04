@@ -255,7 +255,8 @@ h6 {
   padding: 16px 32px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   transition-property: background-color;
-  transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-service:focus {
@@ -366,7 +367,8 @@ h6 {
 .item-link-main:focus {
   background-color: #404bbf;
   transition-property: background-color;
-  transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-team-wrapper {
@@ -524,5 +526,6 @@ h6 {
 .item-link-footer:focus {
   background-color: #31d0aa;
   transition-property: background-color;
-  transition-duration: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
