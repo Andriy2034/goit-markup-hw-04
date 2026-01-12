@@ -417,12 +417,12 @@ h6 {
 }
 
 .overlay {
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 40px 32px 40px 32px;
   background-color: #4d5ae5;
-  color: #fff;
-  font-family: sans-serif;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
   position: absolute;
   top: 0;
   left: 0;
@@ -441,6 +441,7 @@ h6 {
 
 .images {
   width: calc((100% - 48px) / 3);
+  transition-property: box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -488,6 +489,7 @@ h6 {
 .conteiner-footer {
   display: flex;
   justify-content: flex-start;
+  align-items: baseline;
   gap: 120px;
 }
 
